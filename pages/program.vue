@@ -5,7 +5,7 @@
         <Headline1>
           Program k <time datetime="7.9.2024">7. 9. 2024</time> (připravujeme)
         </Headline1>
-        <section aria-labelledby="hlavni-podium">
+        <!-- <section aria-labelledby="hlavni-podium">
           <Headline2 id="hlavni-podium"> Hlavní podium </Headline2>
           <ul class="text-lg mb-3">
             <li v-for="item of hlavniPodium" class="mb-2">
@@ -67,7 +67,7 @@
             Vstup do Národního technického muzea v době konání Dožínek bude 80
             Kč pro dospělého a 40 Kč pro děti ve věku 6-15 let.
           </p>
-        </section>
+        </section> -->
       </div>
       <NuxtImg class="hidden md:block w-16" src="/graphic/stripe.o.svg" />
     </div>
