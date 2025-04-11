@@ -1,87 +1,89 @@
 <template>
-  <div class="grid grid-cols-[1fr_auto] gap-4">
-    <div>
-      <Headline1>
-        Program k <time datetime="7.9.2024">7.9.2024</time>
-      </Headline1>
-      <section aria-labelledby="hlavni-podium">
-        <Headline2 id="hlavni-podium"> Hlavní podium </Headline2>
-        <ul class="text-lg mb-3">
-          <li v-for="item of hlavniPodium" class="mb-2">
-            <time class="font-semibold" :datetime="item.start">{{
-              item.start
-            }}</time>
-            <span class="font-semibold"> – </span>
-            <time class="font-semibold" :datetime="item.end">{{
-              item.end
-            }}</time>
-            <span> – {{ item.event }}</span>
-          </li>
-        </ul>
-      </section>
+  <main v-bind="$attrs">
+    <div class="grid grid-cols-[1fr_auto] gap-4">
+      <div>
+        <Headline1>
+          Program k <time datetime="7.9.2024">7.9.2024</time> (připravujeme)
+        </Headline1>
+        <section aria-labelledby="hlavni-podium">
+          <Headline2 id="hlavni-podium"> Hlavní podium </Headline2>
+          <ul class="text-lg mb-3">
+            <li v-for="item of hlavniPodium" class="mb-2">
+              <time class="font-semibold" :datetime="item.start">{{
+                item.start
+              }}</time>
+              <span class="font-semibold"> – </span>
+              <time class="font-semibold" :datetime="item.end">{{
+                item.end
+              }}</time>
+              <span> – {{ item.event }}</span>
+            </li>
+          </ul>
+        </section>
 
-      <section aria-labelledby="kolbiste">
-        <Headline2 id="kolbiste">Kolbiště</Headline2>
-        <ul class="text-lg mb-3">
-          <li v-for="item in kolbiste" class="mb-2">
-            <time class="font-semibold" :datetime="item.start">{{
-              item.start
-            }}</time>
-            <span class="font-semibold"> – </span>
-            <time class="font-semibold" :datetime="item.end">{{
-              item.end
-            }}</time>
-            <span> – {{ item.event }}</span>
-          </li>
-        </ul>
-      </section>
+        <section aria-labelledby="kolbiste">
+          <Headline2 id="kolbiste">Kolbiště</Headline2>
+          <ul class="text-lg mb-3">
+            <li v-for="item in kolbiste" class="mb-2">
+              <time class="font-semibold" :datetime="item.start">{{
+                item.start
+              }}</time>
+              <span class="font-semibold"> – </span>
+              <time class="font-semibold" :datetime="item.end">{{
+                item.end
+              }}</time>
+              <span> – {{ item.event }}</span>
+            </li>
+          </ul>
+        </section>
 
-      <section aria-labelledby="kolbiste">
-        <Headline2 id="kolbiste">Cimbál u vstupu</Headline2>
-        <ul class="text-lg mb-3">
-          <li v-for="item in cimbal" class="mb-2">
-            <time class="font-semibold" :datetime="item.start">{{
-              item.start
-            }}</time>
-            <span class="font-semibold"> – </span>
-            <time class="font-semibold" :datetime="item.end">{{
-              item.end
-            }}</time>
-            <span> – {{ item.event }}</span>
-          </li>
-        </ul>
-      </section>
+        <section aria-labelledby="kolbiste">
+          <Headline2 id="kolbiste">Cimbál u vstupu</Headline2>
+          <ul class="text-lg mb-3">
+            <li v-for="item in cimbal" class="mb-2">
+              <time class="font-semibold" :datetime="item.start">{{
+                item.start
+              }}</time>
+              <span class="font-semibold"> – </span>
+              <time class="font-semibold" :datetime="item.end">{{
+                item.end
+              }}</time>
+              <span> – {{ item.event }}</span>
+            </li>
+          </ul>
+        </section>
 
-      <section aria-labelledby="atrakce-pro-deti">
-        <Headline2 id="atrakce-pro-deti"> Atrakce pro děti </Headline2>
-        <ul class="list-disc pl-4 text-lg mb-3">
-          <li v-for="item in atrakceProDeti" class="mb-2">
-            {{ item }}
-          </li>
-        </ul>
-      </section>
+        <section aria-labelledby="atrakce-pro-deti">
+          <Headline2 id="atrakce-pro-deti"> Atrakce pro děti </Headline2>
+          <ul class="list-disc pl-4 text-lg mb-3">
+            <li v-for="item in atrakceProDeti" class="mb-2">
+              {{ item }}
+            </li>
+          </ul>
+        </section>
 
-      <section aria-labelledby="regionfest">
-        <Headline2 id="regionfest"> Regionfest </Headline2>
-        <ul class="list-disc pl-4 text-lg mb-3">
-          <li v-for="item in regionfest" class="mb-2">
-            {{ item }}
-          </li>
-        </ul>
-      </section>
+        <section aria-labelledby="regionfest">
+          <Headline2 id="regionfest"> Regionfest </Headline2>
+          <ul class="list-disc pl-4 text-lg mb-3">
+            <li v-for="item in regionfest" class="mb-2">
+              {{ item }}
+            </li>
+          </ul>
+        </section>
 
-      <section aria-labelledby="regionfest">
-        <Headline2 id="regionfest">
-          Vstup zdarma do Národního zemědělského muzea
-        </Headline2>
-        <p class="text-lg mb-3">
-          Vstup do Národního technického muzea v době konání Dožínek bude 80 Kč
-          pro dospělého a 40 Kč pro děti ve věku 6-15 let.
-        </p>
-      </section>
+        <section aria-labelledby="regionfest">
+          <Headline2 id="regionfest">
+            Vstup zdarma do Národního zemědělského muzea
+          </Headline2>
+          <p class="text-lg mb-3">
+            Vstup do Národního technického muzea v době konání Dožínek bude 80
+            Kč pro dospělého a 40 Kč pro děti ve věku 6-15 let.
+          </p>
+        </section>
+      </div>
+      <NuxtImg class="hidden md:block w-16" src="/graphic/stripe.o.svg" />
     </div>
-    <NuxtImg class="hidden md:block w-16" src="/stripe.svg" />
-  </div>
+  </main>
 </template>
 
 <script setup>
