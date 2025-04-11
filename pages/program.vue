@@ -3,19 +3,15 @@
     <div class="grid grid-cols-[1fr_auto] gap-4">
       <div>
         <Headline1>
-          Program k <time datetime="7.9.2024">7.9.2024</time> (připravujeme)
+          Program k <time datetime="7.9.2024">7. 9. 2024</time> (připravujeme)
         </Headline1>
         <section aria-labelledby="hlavni-podium">
           <Headline2 id="hlavni-podium"> Hlavní podium </Headline2>
           <ul class="text-lg mb-3">
             <li v-for="item of hlavniPodium" class="mb-2">
-              <time class="font-semibold" :datetime="item.start">{{
-                item.start
-              }}</time>
-              <span class="font-semibold"> – </span>
-              <time class="font-semibold" :datetime="item.end">{{
-                item.end
-              }}</time>
+              <span class="font-semibold" :datetime="item.start">
+                {{ item.start + "-" + item.end }}
+              </span>
               <span> – {{ item.event }}</span>
             </li>
           </ul>
@@ -25,13 +21,9 @@
           <Headline2 id="kolbiste">Kolbiště</Headline2>
           <ul class="text-lg mb-3">
             <li v-for="item in kolbiste" class="mb-2">
-              <time class="font-semibold" :datetime="item.start">{{
-                item.start
-              }}</time>
-              <span class="font-semibold"> – </span>
-              <time class="font-semibold" :datetime="item.end">{{
-                item.end
-              }}</time>
+              <span class="font-semibold" :datetime="item.start">
+                {{ item.start + "-" + item.end }}
+              </span>
               <span> – {{ item.event }}</span>
             </li>
           </ul>
@@ -41,13 +33,9 @@
           <Headline2 id="kolbiste">Cimbál u vstupu</Headline2>
           <ul class="text-lg mb-3">
             <li v-for="item in cimbal" class="mb-2">
-              <time class="font-semibold" :datetime="item.start">{{
-                item.start
-              }}</time>
-              <span class="font-semibold"> – </span>
-              <time class="font-semibold" :datetime="item.end">{{
-                item.end
-              }}</time>
+              <span class="font-semibold" :datetime="item.start">
+                {{ item.start + "-" + item.end }}
+              </span>
               <span> – {{ item.event }}</span>
             </li>
           </ul>
