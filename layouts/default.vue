@@ -6,7 +6,7 @@
       <h1
         class="uppercase w-fit text-2xl font-bold text-primary hover:text-secondary"
       >
-        <NuxtLink to="/">Dožínkové slavnosti</NuxtLink>
+        <NuxtLink to="/">Dožínkové slavnosti 2025</NuxtLink>
       </h1>
       <button
         @click="menu.isOpenned = !menu.isOpenned"
@@ -97,8 +97,8 @@
       <ul class="flex flex-col lg:flex-row gap-12 lg:gap-8 justify-center">
         <li>
           <div class="font-bold text-2xl mb-3">Projekt podporuje</div>
-          <NuxtLink href="https://www.eagri.cz" target="_blank">
-            <div class="font-bold text-base mb-3">www.eagri.cz</div>
+          <NuxtLink href="https://www.mze.gov.cz" target="_blank">
+            <div class="font-bold text-base mb-3">www.mze.gov.cz</div>
             <NuxtImg
               class="max-w-[300px]"
               :width="390"

@@ -3,7 +3,7 @@
     <div class="grid grid-cols-[1fr_auto] gap-4">
       <div>
         <Headline1>
-          Program k <time datetime="7.9.2024">7. 9. 2024</time> (připravujeme)
+          Program k <time datetime="7.9.2024">6. 9. 2025</time> (připravujeme)
         </Headline1>
         <!-- <section aria-labelledby="hlavni-podium">
           <Headline2 id="hlavni-podium"> Hlavní podium </Headline2>

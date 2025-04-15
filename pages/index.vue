@@ -12,7 +12,7 @@
       <div
         class="grid items-center justify-center font-bold bg-surface/60 text-2xl gap-4"
       >
-        <div class="text-3xl text-center">6.9. 2025 10:00–18:00</div>
+        <div class="text-5xl text-center">6. 9. 2025 10:00–18:00</div>
         <div class="uppercase text-5xl lg:text-8xl text-center">
           <NuxtImg
             src="/graphic/headline.o.svg"
@@ -20,7 +20,7 @@
             class="h-48"
           />
         </div>
-        <div class="text-center leading-tight">
+        <div class="text-3xl text-center leading-tight">
           Vstup zdarma <br />
           Největší farmářský trh v Praze
         </div>
@@ -53,7 +53,7 @@
             trhem, který se konal na Letenské pláni. V letošním, sedmém ročníku,
             se na vás budeme těšit na novém místě a s novým názvem projektu. V
             letošním roce vás přivítáme v Holešovicích a věříme, že návštěvnost
-            bude stejně hojná, jako v letech předchozích.
+            bude stejně hojná jako v letech předchozích.
           </p>
           <p class="mb-3">
             <b>“Dožínkové Slavnosti”</b> se budou konat <b>6.9.2025</b> v
