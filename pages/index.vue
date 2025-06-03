@@ -56,7 +56,7 @@
             bude stejně hojná jako v letech předchozích.
           </p>
           <p class="mb-3">
-            <b>“Dožínkové Slavnosti”</b> se budou konat <b>6.9.2025</b> v
+            <b>“Dožínkové slavnosti”</b> se budou konat <b>6.9.2025</b> v
             prostorách <b>Výstaviště Holešovice</b>.
           </p>
           <p class="mb-3">
@@ -66,7 +66,7 @@
             ochutnávky regionálních specialit, soutěže a širokou škálu aktivit
             pro děti. Na&nbsp;Výstavišti Holešovice na vás bude rovněž čekat
             přehlídka farmářských zvířat a zemědělské techniky. Dožínkové
-            Slavnosti v&nbsp;Holešovicích budou mít za úkol opět propojit
+            slavnosti v&nbsp;Holešovicích budou mít za úkol opět propojit
             městské a venkovské prostředí, zemědělce a spotřebitele a přinášet
             radost z úspěšné sklizně a podporovat pouto mezi lidmi
             a&nbsp;přírodou. Přijďte tuto radostnou událost prožít opět
