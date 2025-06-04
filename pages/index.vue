@@ -1,11 +1,11 @@
 <template>
   <main
-    class="grid gap-24 mb-24 max-w-full lg:w-[1024px] xl:w-[1280px] mx-auto px-3"
+    class="grid gap-24 mb-24 max-w-full lg:max-w-[1024px] xl:max-w-[1280px] mx-auto px-3"
   >
     <section
       class="grid gap-8 justify-center grid-rows-[auto_1fr_auto] min-h-[calc(100vh-2.75rem)]"
     >
-      <div class="lg:flex contents">
+      <div class="lg:grid lg:grid-cols-2 lg:max-w-[1024px] xl:max-w-[1280px] contents">
         <NuxtImg alt="" src="/graphic/front-top.svg" class="w-full" />
         <NuxtImg alt="" src="/graphic/front-top.svg" class="w-full hidden lg:block" />
       </div>
@@ -13,11 +13,11 @@
         class="grid items-center justify-center font-bold bg-surface/60 text-2xl gap-4"
       >
         <div class="text-5xl text-center">6. 9. 2025 10:00–18:00</div>
-        <div class="uppercase text-5xl lg:text-8xl text-center">
+        <div class="uppercase text-5xl lg:text-8xl grid">
           <NuxtImg
             src="/graphic/headline.o.svg"
             alt="Logo Dožínkových slavností, psacím písmem"
-            class="h-48"
+            class="h-48 place-self-center"
           />
         </div>
         <div class="text-3xl text-center leading-tight">
@@ -25,7 +25,7 @@
           Největší farmářský trh v Praze
         </div>
       </div>
-      <div class="lg:flex contents">
+      <div class="lg:grid lg:grid-cols-2 lg:max-w-[1024px] xl:max-w-[1280px] contents">
         <NuxtImg alt="" src="/graphic/front-top.svg" class="w-full" />
         <NuxtImg alt="" src="/graphic/front-top.svg" class="w-full hidden lg:block" />
       </div>
