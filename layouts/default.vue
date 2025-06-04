@@ -148,7 +148,7 @@
 
             <li class="text-lg">
               <NuxtLink href="https://www.mesicbiopotravin.cz/" target="_blank">
-                Měsíc bio potravin
+                Měsíc biopotravin
               </NuxtLink>
             </li>
             <li class="text-lg">
