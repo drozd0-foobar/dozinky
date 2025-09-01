@@ -48,7 +48,7 @@ useHead({
   titleTemplate: (titleChunk) => {
     return titleChunk
       ? `${titleChunk} | Dožínkové slavnosti 2025`
-      : "Dožínkové slavnosti";
+      : "Dožínkové slavnosti 2025";
   },
 });
 </script>

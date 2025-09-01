@@ -6,7 +6,7 @@
       <h1
         class="uppercase w-fit text-2xl font-bold text-primary hover:text-secondary"
       >
-        <NuxtLink to="/">Dožínkové slavnosti 2025</NuxtLink>
+        <NuxtLink to="/">Dožínkové slavnosti</NuxtLink>
       </h1>
       <button
         @click="menu.isOpenned = !menu.isOpenned"
