@@ -174,7 +174,7 @@ useJsonld(() => ({
 }));
 
 useSeoMeta({
-  title: "Program | Dožínkové slavnosti – Výstaviště Holešovice",
+  title: "Program",
   ogTitle: "Program – Dožínkové slavnosti (6. 9. 2025, Výstaviště Holešovice)",
   description:
     "Program Dožínkových slavností 6. 9. 2025 na Výstavišti Holešovice: hlavní pódium, kolbiště, atrakce pro děti, Regionfest a Potraviny k nezaplacení.",
